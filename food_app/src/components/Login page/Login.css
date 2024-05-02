@@ -1,0 +1,51 @@
+.login {
+  background-color: gray;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Second_div {
+  background-color: aqua;
+  width: 80%;
+  padding: 20px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 1rem;
+}
+.input_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  gap: 12px;
+  margin-top: 30px;
+
+}
+.btn_sub {
+  width: 100%;
+  margin: 0;
+ 
+}
+.text_input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  border: none;
+  padding: 10px;
+}
+
+.header_login {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+}
+.icon_div{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}

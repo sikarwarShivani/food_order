@@ -1,0 +1,7 @@
+.first_page_header{
+    background-color: #C40C0C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

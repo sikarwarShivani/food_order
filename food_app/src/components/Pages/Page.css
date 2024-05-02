@@ -1,0 +1,23 @@
+.first_page_header {
+  background-color: #c40c0c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 23px;
+
+}
+img {
+  width: 170px;
+  border-radius: 80px;
+  height: 160px;
+}
+button {
+  border: 1px solid #fff;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #c40c0c;
+  color: #fff;
+  height: 40px;
+}

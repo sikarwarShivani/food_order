@@ -1,0 +1,82 @@
+.first-div {
+  padding: 0 15px 0 15px;
+}
+.profile_name {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+.icon_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.search_bar {
+  border: 1px solid gray;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+}
+.search_bar input {
+  border: none;
+  outline: none;
+}
+
+.img_food {
+  height: 80px;
+  width: 60px;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+.food_div {
+  height: 120px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: brown;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.div_menu {
+  width: 30%;
+  background: #8bbcbc;
+  border-radius: 15px;
+  height: 120px;
+  overflow: hidden;
+}
+.bur_img {
+  width: 81px;
+  height: 76px;
+}
+.img_Text {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  color: whitesmoke;
+}
+.img_Burger {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 18px;
+}
+
+.card_div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
