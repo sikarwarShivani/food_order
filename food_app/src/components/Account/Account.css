@@ -1,0 +1,24 @@
+.img_profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.btn-sum{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}

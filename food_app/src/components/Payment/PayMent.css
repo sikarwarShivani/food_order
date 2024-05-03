@@ -1,0 +1,21 @@
+.Hed{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    padding-left: 25px;
+}
+.img_paypal{
+    height: 50px;
+    width: 50px;
+}
+.icon-paypal{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    margin-top: 19rem;
+}

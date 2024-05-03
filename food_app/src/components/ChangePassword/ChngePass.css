@@ -1,0 +1,66 @@
+.Pass {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+}
+.Pass1 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+.input-bar {
+  height: 40px;
+  /* width: 320px; */
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 10px;
+}
+.per_text {
+  font-size: 17px;
+}
+.btn {
+  margin-top: 100px;
+}
+.footer_icon_ChangePass {
+  /* position: fixed; */
+  /* top: 0; */
+  /* bottom: 0; */
+  /* transform: translateX(-50%); */
+}
+.input_conntent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_submit {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 5rem;
+  align-items: center;
+}
+.btn_submit button {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}

@@ -1,0 +1,61 @@
+.Hed{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    padding-left: 25px;
+}
+.re_name{
+    font-size: 20px;
+}
+
+.img_food{
+    height: 80px;
+    width: 80px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.doller{
+    display: flex;
+    flex-direction: column;
+}
+.like_doller{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.dislike{
+    color: red;
+}
+.btn_sub{
+   width: 80%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+    margin-top: 100px;
+}
+.footer_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+   position: absolute;
+   bottom: 1rem;
+    font-size: 30px;
+}
+.footer_icon:hover{
+    cursor: pointer;
+    color: brown;
+}
