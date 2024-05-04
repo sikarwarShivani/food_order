@@ -14,8 +14,8 @@
 .icon-paypal{
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     font-size: 30px;
-    margin-top: 19rem;
 }

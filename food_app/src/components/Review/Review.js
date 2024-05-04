@@ -1,13 +1,13 @@
 import React from "react";
 import "./Review.css";
 import { IoIosArrowBack } from "react-icons/io";
-import { SlLike } from "react-icons/sl";
-import { SlDislike } from "react-icons/sl";
 import { IoHeartDislikeCircleSharp } from "react-icons/io5";
 import { MdHome } from "react-icons/md";
 import { GiForkKnifeSpoon } from "react-icons/gi";
 import { MdLocalGroceryStore } from "react-icons/md";
-import Person2Icon from '@mui/icons-material/Person2';
+import Person2Icon from '@mui/icons-material/Person2';import { SlLike } from "react-icons/sl";
+import { SlDislike } from "react-icons/sl";
+
 const Review = () => {
   return (
     <div>
@@ -79,10 +79,10 @@ const Review = () => {
           </div>
         </div>
       </div>
-      <div className="btn">
-      <button className="btn_sub">Submit</button>
+      <div className="review-btn">
+      <button className="btn-rev">Submit</button>
       </div>
-      <div className="footer_icon">
+      <div className="Review-footer">
       <MdHome />
       <IoHeartDislikeCircleSharp />
       <GiForkKnifeSpoon />

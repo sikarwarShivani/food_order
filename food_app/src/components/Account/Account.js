@@ -11,7 +11,7 @@ import Person2Icon from '@mui/icons-material/Person2';
 
 const Account = () => {
   return (
-    <div style={{padding:'10px'}}>
+    <div style={{padding:'10px'}} className='main-accont'>
       <div className='main-div'>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5vl7JTcT_gToPMsWNDhBdjq6TsA6o9scv-h0oTgpsfw&s' className='img_profile'/>
         <h5>Kiwi</h5>
@@ -47,10 +47,10 @@ const Account = () => {
             <IoIosArrowForward/>
         </div>
     </div>
-    <div className="btn-sum">
-      <button className="btn_sub">Submit</button>
+    <div className="Account-btn">
+      <button className="acount-sub">Submit</button>
       </div>
-      <div className="footer_icon">
+      <div className="Account_footer">
       <MdHome />
       <IoHeartDislikeCircleSharp />
       <GiForkKnifeSpoon />

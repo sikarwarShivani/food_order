@@ -3,6 +3,13 @@ import "./MenuPage.css";
 import { CgProfile } from "react-icons/cg";
 import { CgMenuGridR } from "react-icons/cg";
 import { IoMdSearch } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoHeartDislikeCircleSharp } from "react-icons/io5";
+import { MdHome } from "react-icons/md";
+import { GiForkKnifeSpoon } from "react-icons/gi";
+import { MdLocalGroceryStore } from "react-icons/md";
+import Person2Icon from '@mui/icons-material/Person2';import { SlLike } from "react-icons/sl";
+import { SlDislike } from "react-icons/sl";
 
 const MenuPage = () => {
   return (
@@ -35,32 +42,31 @@ const MenuPage = () => {
           </div>
           <div className="img-div">
             <div className="food_div">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNAOJ5GYnesbEIBPyqGiD20B_v6UVqlE7qXK9WiJCvw&s"
-                className="img_food"
+              <img className="img-food"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNAOJ5GYnesbEIBPyqGiD20B_v6UVqlE7qXK9WiJCvw&s"
               />
-              <p>Burger</p>
+              <p className="bur-nam">Burger</p>
             </div>
             <div className="food_div">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNAOJ5GYnesbEIBPyqGiD20B_v6UVqlE7qXK9WiJCvw&s"
-                className="img_food"
+                className="img-food"
               />
-              <p>Burger</p>
+              <p className="bur-nam">Burger</p>
             </div>
             <div className="food_div">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNAOJ5GYnesbEIBPyqGiD20B_v6UVqlE7qXK9WiJCvw&s"
-                className="img_food"
+                className="img-food"
               />
-              <p>Burger</p>
+              <p className="bur-nam">Burger</p>
             </div>
             <div className="food_div">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNAOJ5GYnesbEIBPyqGiD20B_v6UVqlE7qXK9WiJCvw&s"
-                className="img_food"
+                className="img-food"
               />
-              <p>Burger</p>
+              <p className="bur-nam">Burger</p>
             </div>
           </div>
           <div>
@@ -137,7 +143,15 @@ const MenuPage = () => {
             </div>
           </div>
         </div>
+      <div className="Menu-footer">
+      <MdHome />
+      <IoHeartDislikeCircleSharp />
+      <GiForkKnifeSpoon />
+      <MdLocalGroceryStore/>
+      <Person2Icon/>
       </div>
+      </div>
+
     </div>
   );
 };

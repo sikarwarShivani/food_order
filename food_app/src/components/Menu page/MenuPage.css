@@ -30,9 +30,9 @@
   outline: none;
 }
 
-.img_food {
-  height: 80px;
-  width: 60px;
+.img-food{
+  height: 40px;
+  width: 40px;
 }
 .img-div {
   display: flex;
@@ -41,8 +41,8 @@
   padding: 40px;
 }
 .food_div {
-  height: 120px;
-  width: 70px;
+  height: 100px;
+  width: 50px;
   border-radius: 50px;
   background-color: brown;
   padding: 10px;
@@ -51,6 +51,7 @@
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  gap: 10px;
 }
 .div_menu {
   width: 30%;
@@ -79,4 +80,16 @@
   margin-top: 10px;
   display: flex;
   gap: 10px;
+}
+.bur-nam{
+  font-size: 10px;
+
+}
+.Menu-footer{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  font-size: 30px;
 }

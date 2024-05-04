@@ -26,12 +26,12 @@ const ChnagePass = () => {
           <input placeholder="Enter New Password" className="input-bar" />
           <input placeholder="Re-enter New PassWord" className="input-bar" />
         </div>
-        <div className="btn_submit">
-          <button className="btn_sub">Submit</button>
+        <div className="change-btn">
+          <button className="chnage_sub">Submit</button>
         </div>
       </div>
       <div className="footer_icon_ChangePass">
-        <div className="icon_container">
+        <div className="change-footer">
           <MdHome />
           <IoHeartDislikeCircleSharp />
           <GiForkKnifeSpoon />

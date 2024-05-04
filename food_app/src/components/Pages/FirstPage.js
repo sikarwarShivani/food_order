@@ -10,10 +10,10 @@ const FirstPage = () => {
         />
       </span>
       <span>
-        <h2>Enjoy Your Food</h2>
+        <h2 style={{color:'whitesmoke'}}>Enjoy Your Food</h2>
       </span>
       <span>
-        <button>Get Started</button>
+        <button className="get-start">Get Started</button>
       </span>
     </div>
   );

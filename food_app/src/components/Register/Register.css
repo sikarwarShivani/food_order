@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  min-width: fit-content;
+  /* min-width: fit-content; */
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -48,11 +48,24 @@
   padding: 10px;
   outline: none;
 }
-button {
-  margin-top: 30px;
-  width: 96%;
+.res-sub {
+  /* margin-top: 30px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+ 
+  
 }
-p {
+.sub-mit{
+  padding: 5px;
+  width: 100%;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+.sing-in {
   margin-top: 10px;
 }
 .rounded_dot {
